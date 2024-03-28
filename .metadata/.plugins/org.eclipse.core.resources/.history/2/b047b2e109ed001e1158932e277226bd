@@ -1,0 +1,39 @@
+package com.example.secutiry.controller;
+
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+@org.springframework.stereotype.Controller
+@RequestMapping("/")
+public class Controller {
+	
+	@GetMapping("/main")
+	public String main() {
+		
+		return "main";
+	}
+	
+	@GetMapping("/result")
+	public String result() {
+		
+		return "result";
+	}
+	
+	@PostMapping("/loginForm")
+	public String loginForm(String id,
+							String pw,
+							String role,
+							Model model) {
+		
+		System.out.println("id" + id);
+		System.out.println("pw");
+		
+		return "redirect:/result";
+	}
+	
+	
+
+}

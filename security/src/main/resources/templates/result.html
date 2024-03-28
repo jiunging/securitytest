@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<h1>결과페이지~~</h1>
+	[[${session.role}]] 
+	<div th:if="${session.role == 'admin'}">role이 admin일 때만 볼 수 있는거!!!</div>
+	
+	<div th:if="${session.role == 'teacher'}">role이 teacher일 때만 볼 수 있는거!!!</div>
+	
+	<div th:if="${session.role == 'student'}">role이 student일 때만 볼 수 있는거!!!</div>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+package com.example.secutiry.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@org.springframework.stereotype.Controller
+@RequestMapping("/main")
+public class Controller {
+	
+	
+	
+	
+
+}

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<h1>메인페이지~~</h1>
+	
+	<form action="loginForm">
+    	<input type="text" id="id" title="아이디" placeholder="아이디" />
+	</form>
+
+</body>
+</html>

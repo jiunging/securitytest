@@ -1,0 +1,11 @@
+package com.example.secutiry.controller;
+
+
+@org.springframework.stereotype.Controller
+public class Controller {
+	
+	
+	
+	
+
+}
